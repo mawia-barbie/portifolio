@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width:1200px;
+    line-height: 1.6;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #b60055;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+header {
+    background-image: url('https://thumbs.dreamstime.com/b/business-professional-analyzing-data-laptop-cloud-analytics-icons-business-process-automation-bpa-robotic-process-393448746.jpg');
+    background-size: cover;
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 1em;
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+    border-bottom: 1px solid #ddd;
+}
+
+footer {
+    background-color: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
