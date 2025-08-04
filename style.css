@@ -1,44 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    max-width:1200px;
-    line-height: 1.6;
-    margin: 0 auto;
-    padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
+  font-family: 'Poppins', sans-serif;
+  background: #fff;
+  color: #333;
 }
 
-header {
-    background-color: #b60055;
-    color: white;
-    padding: 1em;
-    text-align: center;
+.container {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  min-height: 100vh;
 }
 
-header {
-    background-image: url('https://thumbs.dreamstime.com/b/business-professional-analyzing-data-laptop-cloud-analytics-icons-business-process-automation-bpa-robotic-process-393448746.jpg');
-    background-size: cover;
-    background-position: 50% 30%;
-    background-repeat: no-repeat;
-    color: white;
-    padding: 1em;
-    text-align: center;
+/* Sidebar */
+.sidebar {
+  background-color: #ffe4ec;
+  padding: 20px;
+  text-align: center;
 }
 
-nav a {
-    margin: 0 1em;
-    color: white;
-    text-decoration: none;
+.sidebar .profile-pic img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
 }
 
-section {
-    padding: 2em;
-    border-bottom: 1px solid #ddd;
+.sidebar h1 {
+  color: #af2d52;
+  font-size: 24px;
+  margin-bottom: 5px;
 }
 
-footer {
-    background-color: #0077b6;
-    color: white;
-    text-align: center;
-    padding: 1em 0;
+.sidebar .title {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.section {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.section h2 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #af2d52;
+  text-transform: uppercase;
+}
+
+.section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.section li {
+  margin-bottom: 6px;
+}
+
+/* Content */
+.content {
+  padding: 40px;
+}
+
+.content h2 {
+  color: #af2d52;
+  font-size: 20px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 4px;
+}
+
+.content section {
+  margin-bottom: 30px;
+}
+
+.job, .edu {
+  margin-bottom: 20px;
+}
+
+.job h3, .edu h3 {
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  color: #333;
+}
+
+.refs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.refs div {
+  width: 45%;
 }

@@ -1,85 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mawia's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <div class="container">
+
+    <aside class="sidebar">
+      <div class="profile-pic">
+        <img src="20230308191828_IMG_9704 copy.jpg" alt="Profile Picture">
+      </div>
+      <h1>Grace Mawia</h1>
+      <p class="title">An Undergraduate Student</p>
+
+      <section class="section">
+        <h2>Contact</h2>
+        <p>Phone number :0112260078</p>
+        <p>Email address: mawiagrace411@gmail.com</p>
+        <p>linkedin profile link : <a href ="https://www.linkedin.com/in/grace-mawia-9b8340269?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">linkedin</a></p>
+        <P>Github profile link : <a href="https://github.com/mawia-barbie">Github</a></P>
+      </section>
+
+      
+
+      
+    </aside>
+
     
-
-    <header>
-        <h1>Mawia's Portfolio</h1>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#languages">Languages</a>
-            <a href="#education">Education</a>
-            <a href="#interests">Interests</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
-
-    <section id="about">
+    <main class="content">
+      <section>
         <h2>About Me</h2>
-        <p>Hello! I’m  Grace Mawia. I am an aspiring software developer and a cybersecurity enthusiast with a strong interest in emerging technologies such as artificial intelligence and blockchain. I’m passionate about exploring how these innovations can be used to solve real-world problems and improve digital systems. I'm driven by curiosity, a love for learning, and a desire to contribute to impactful tech solutions.
+        <p>Hello !! My name is Grace Mawia.I am an aspiring software developer.I am very passsionate about creating tech solutions that make life easier and also intergrating cutting edge technology like artificial intelligence and blockchain in software development.</p>
+         <p>You can download my cv using the link below: </p><a href="mawiacv.pdf" download>Download My CV</a>
+      </section>
 
- </p>
-    </section>
+      <section>
+        <h2>Educational background</h2>
+        <div class="education">
+          <h3>meru university of sciencne and technology <span>2021– 2025</span></h3>
+          <p>I persued a bachelors degree in computer security and forensics. </p>
+        </div>
 
-    <section id="languages">
-        <h2>Programming Languages</h2>
-        <ul>
-            <li>Python</li>
-            <li>JavaScript</li>
-            <li>HTML & CSS</li>
-            <li>SQL</li>
-        </ul>
-    </section>
+        <div class="education">
+          <h3>Power learn project  <span>July 2025– present</span></h3>
+          <p>At power learn project,i am persuing a software development course,where i learn about creating databases,python and web development . </p>
+    
+          <div class ="education">
+            <h3>cyber safe foundatation</h3>
+            <p>At cyber safe foundation to sharpen my cybersecurity skills where i specialised in digital forensics and threat intelligence</p>
+          </div>
+          
+        </div>
+      </section>
 
-    <section id="education">
-        <h2>Education</h2>
-        <p>I have a Bachelor’s in Computer security and forensics at Meru university in science and technology and i have had the pleasure to study about intresting topics on the cutting edge cybersecurity technologies and also artificial intelligence.I have alos enrolled i the powerlearnproject july cohort where i am getting equiped with software engineering skills like web developement and database developement</p>
-        <a href="assets/resume.pdf" download>Download My CV</a>
-    </section>
+      <section>
+        <h2>Intrests</h2>
+        <div class="Intrests">
+          <p> <strong>Cybersecurity</strong> <br>I have a strong interest in ethical hacking, digital forensics, and network security. I find the challenge of defending systems against real-world threats both rewarding and intellectually stimulating.</p>
+        
+        </div>
+        <div class="Intrests">       
+          <p><strong>Artificial Intelligence</strong><br>I'm fascinated by how AI can be applied to automate tasks, improve decision-making, and enhance security systems. I'm especially interested in the agentic ai concept and autonomous systems.</p>
+        </div>
+      </section>
 
-    <section id="interests">
-        <h2>Interests</h2>
-        <p>I’m especially interested in cybersecurity, AI, and developing accessible tech for all users...</p>
-    </section>
+      <section class="section">
+        <h2>projects</h2>
+        <h3><strong>Cracked software detection</strong></h3>
+        <p>For my final year project ,i worked on a blockchain based web system that flags cracked software.The system used blockchain technology to asign licenses to legtitimate softwaare and also store the license hashes of the software</p>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li>
-                <strong>Threat Detection Agent</strong> – A tool that gathers and reports real cyber threats. [<a href="#">GitHub</a>]
-            </li>
-            <li>
-                <strong>Cyber Hygiene Guide</strong> – A strategy guide for executives to improve cybersecurity practices. [<a href="#">Link</a>]
-            </li>
-        </ul>
-    </section>
+        <h3><strong>Secure file storage system</strong></h3>
+        <p>participated in a group project in my third year  where we developed a storage systems that stored files securely and intergrated cryptography and hashing </p>
+        
+      </section>
 
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <form action="mailto:your@email.com" method="post" enctype="text/plain">
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name"><br>
-
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email"><br>
-
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message"></textarea><br>
-
-            <input type="submit" value="Send">
-        </form>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Mawia. All rights reserved.</p>
-    </footer>
-
+      
+    </main>
+  </div>
 </body>
 </html>
